@@ -144,6 +144,23 @@ color: #ffffff;
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;}
 
+#circle-cover-bg {
+        background: url('../images/reasons-image.webp') no-repeat top center / cover;
+        height: 90vw;
+        width: 90vw;
+        margin-bottom: 20px;
+        /* Make a square image */
+        border-radius: 50%;
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Footer */
 #social-networks {
@@ -159,6 +176,8 @@ color: #ffffff;
     padding: 5%;
     color: #3a3a3a;
 }
+
+
 
 /* Media query: tablets and larger (768px and up) */
 @media  screen  and (min-width: 768px) {
